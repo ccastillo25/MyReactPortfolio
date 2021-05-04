@@ -1,49 +1,22 @@
 import React, { Component } from 'react';
-export default class About extends Component {
-    render() {
-        let resumeData = this.props.resumeData;
-        return (
-            <section id="about">
-                <div className="row">
+import Fade from 'react-reveal/Fade';
+import data from '../data';
 
-                    <div className="three columns">
+class About extends Component {
+    state = {  }
+    render() { 
+        return (<div className='about'>
+            <div className='about-content'>
+            <h1><Fade bottom cascade>About.</Fade></h1>
+            <Fade bottom>
+                    <p>{data.abouttext}</p>
+            </Fade>
+            </div>
+            {data.ShowAboutImage ? <img src={data.aboutImage} alt='about iamge'></img> : null}
+            
 
-                        <img className="profile-pic" src="myportfolio\src\images\myImage.jpg" alt="my photo" />
-
-                    </div>
-
-                    <div className="nine columns main-col">
-
-                        <h2>About Me</h2>
-                        <p>
-                            My name is Carlos Castillo. I'm 28 years old, I was born in Los Angeles, California. I love to work out and
-                            watch sports, baseball being my favorite sport of all with the Dodgers being my favorite team. I am
-                            currently a
-                            student at UCSD extension for coding, on my journey to begin a career as a web developer.
-                            I have always been driven by my competitive spirit, and always wanting to be the best, and I will
-                            strive
-                            everyday to become the very best web developer I know I can be.
-               </p>
-
-                        <div className="row">
-
-                            <div className="columns contact-details">
-
-                                <h2>Contact Details</h2>
-                                <p className="address">
-                                    <span>{resumeData.name}</span>
-                                    <br></br>
-                                    <span>
-                                        {resumeData.address}
-                                    </span>
-                                    <br></br>
-                                    <span>{resumeData.website}</span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        );
+        </div>  );
     }
 }
+ 
+export default About;
