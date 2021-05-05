@@ -1,51 +1,31 @@
 import React, { Component } from 'react';
-export default class Header extends Component {
-  render() {
-    let resumeData = this.props.resumeData;
-    return (
-      <React.Fragment>
-      
-      <header id="home">
-         <nav id="nav-wrap">
-            <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-            <ul id="nav" className="nav">
-               <li className="current"><a className="smoothscroll" href="#home">CARLOS CASTILLO</a></li>
-               <li><a className="smoothscroll" href="#about">About</a></li>
-             <li><a className="smoothscroll" href="#resume">SERVICES</a></li>
-               <li><a className="smoothscroll" href="#portfolio">PORTFOLIO</a></li>
-               <li><a className="smoothscroll" href="#contact">CONTACT</a></li>
-               <li><a className="smoothscroll" href="#resume">RESUME</a></li>
-            </ul>
-         </nav>
+import data from '../data'
 
-         <div className="row banner">
-            <div className="banner-text">
-               <h1 className="responsive-headline">I am {resumeData.name}.</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}
-               </h3>
-               <hr/>
-               <ul className="social">
-                  {
-                    resumeData.socialLinks && resumeData.socialLinks.map(item =>{
-                      return(
-                              <li key={item.name}>
-                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
-                              </li>
-                            )
-                          }
-                    )
-                  }
-               </ul>
-            </div>
-         </div>
 
-         <p className="scrolldown">
-            <a className="smoothscroll" href="#about"><i className="icon-down-circle"></i></a>
-         </p>
+class Header extends Component {
+    state = {}
 
-      </header>
-      </React.Fragment>
-    );
-  }
+    render() {
+        return (<div>
+        <h1 className='heading-background'>C NEILL</h1>
+            <header>
+                <h1>
+                    <Fade bottom cascade>{data.name}</Fade></h1>
+            </header>
+            <Fade bottom>
+            <p className='header-title'>
+            {data.headerTagline[0]}<br></br>{data.headerTagline[1]}<br></br>
+            {data.headerTagline[2]}
+               <br></br>
+                    <button><a href={`mailto:${data.contactEmail}`} rel="noopener noreferrer" >Contact</a></button>
+                    <button><a href={`${data.resume}`} rel="noopener noreferrer" >Resume</a></button>
+                </p>
+            </Fade>
+
+
+
+        </div>);
+    }
 }
+
+export default Header;
