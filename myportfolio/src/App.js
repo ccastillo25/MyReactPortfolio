@@ -18,9 +18,11 @@ render() {
       <div className='About'>
         <About></About>
       </div>
+
       <div className='Portfolio'>
         <Portfolio></Portfolio>
       </div>
+      
       <div className='contact'>
         <Contact></Contact>
       </div>

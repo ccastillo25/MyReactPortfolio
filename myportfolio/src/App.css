@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 
 body{
   font-size: 16px;
-  background-image: './ezgif.com-gif-maker.gif';
   font-family: 'Permanent Marker', cursive;
   overflow-x: hidden;
   z-index: 1;
@@ -91,7 +91,7 @@ li .link:hover{
 }
 .header-title button a{
   font-family: 'Permanent Marker', cursive;
-  color:white;
+  color:#30475e;
   text-decoration: none;
 }
 .header-title{
