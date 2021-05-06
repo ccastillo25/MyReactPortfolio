@@ -3,7 +3,7 @@ import './App.css';
 
 import Header from './components/Header';
 import About from './components/About';
-import Work from './components/work';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar'
 
@@ -18,8 +18,8 @@ function App() {
       <div className='About'>
         <About></About>
       </div>
-      <div className='work'>
-        <Work></Work>
+      <div className='Portfolio'>
+        <Portfolio></Portfolio>
       </div>
       <div className='contact'>
         <Contact></Contact>
