@@ -5,10 +5,8 @@ class Contact extends Component {
     state = {  }
     render() { 
         return (  <div>
-        <h1>
-                <Fade bottom cascade> Contact.</Fade>
+        <h1>Contact.
         </h1>
-        <Fade bottom>
         <div className='contact-content'>
                 
                     <a href={`mailto:${data.contactEmail}`} className='email'>{data.contactEmail}</a>
@@ -18,7 +16,6 @@ class Contact extends Component {
                     ))}   
                 </ul>
         </div>
-        </Fade>
 
             <span className='footer'>Alternate website design<a href="https://christopherneill.github.io/latestportfolio/"> Christopher's original website</a></span>
         </div>);
