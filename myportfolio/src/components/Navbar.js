@@ -12,48 +12,25 @@ class Navbar extends Component {
                     className='link'
                     activeClass="active"
                     to="home"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
                     onClick={this.scrollToTop}
                 >Home</Link></li>
                 <li><Link
                     className='link'
                     activeClass="active"
                     to="About"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
                 >About</Link></li>
                 <li><Link
                     className='link'
                     activeClass="active"
                     to="portfolio"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
                 >Portfolio</Link></li>
                 <li><Link
                     className='link'
                     activeClass="active"
                     to="contact"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
                 >Contact</Link></li>
-                <li><Link
-                    className='link'
-                    activeClass="active"
-                    to="https://docs.google.com/document/d/1jtBDalymGFOpmtIFjUiQm3h_oMbY-F4PIOSgTR2LOng/edit?usp=sharing"
-                    spy={true}
-                    smooth={true}
-                    offset={-70}
-                    duration={500}
-                >Resume</Link></li>
+                <li><a href="https://docs.google.com/document/d/1jtBDalymGFOpmtIFjUiQm3h_oMbY-F4PIOSgTR2LOng/edit?usp=sharing" alt="resume"
+                >Resume</a></li>
             </ul>
         </nav> );
     }
