@@ -5,12 +5,11 @@ class About extends Component {
     state = {  }
     render() { 
         return (<div className='about'>
-            <div className='about-content'>
-            <h1>About.</h1>
-                    <p>{data.abouttext}</p>
-            </div>
-            {data.ShowAboutImage ? <img src={data.aboutImage} alt='about iamge'></img> : null}
+            <h1>About</h1>
+            <h2>{data.ShowAboutImage ? <img src={data.aboutImage} alt='about iamge'></img> : null}</h2>
             
+            
+            <h3>{data.abouttext}</h3>
 
         </div>  );
     }

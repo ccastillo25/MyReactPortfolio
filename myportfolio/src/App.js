@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
-import Navbar from './components/Navbar'
+import Navbar from './components/Navbar';
 
-function App() {
+class App extends Component {
+render() {
   return (
     <div className="App">
       <Navbar></Navbar>
@@ -27,5 +27,5 @@ function App() {
     </div>
   );
 }
-
+}
 export default App;

@@ -5,7 +5,8 @@ class Contact extends Component {
     state = {  }
     render() { 
         return (  <div>
-        <h1>Contact.
+        <h1>
+            Contact
         </h1>
         <div className='contact-content'>
                 
@@ -16,8 +17,6 @@ class Contact extends Component {
                     ))}   
                 </ul>
         </div>
-
-            <span className='footer'>Alternate website design<a href="https://christopherneill.github.io/latestportfolio/"> Christopher's original website</a></span>
         </div>);
     }
 }

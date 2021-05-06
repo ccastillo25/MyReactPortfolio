@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 
 body{
   font-size: 16px;
-  
-  font-family: 'Open Sans', sans-serif;
+  background-image: './ezgif.com-gif-maker.gif';
+  font-family: 'Permanent Marker', cursive;
   overflow-x: hidden;
   z-index: 1;
 }
@@ -90,13 +90,13 @@ li .link:hover{
   opacity: 0.8;
 }
 .header-title button a{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Permanent Marker', cursive;
   color:white;
   text-decoration: none;
 }
 .header-title{
   position: relative;
-  font-family: 'Montserrat', sans-serif;
+  font-family:'Permanent Marker', cursive ;
   font-size: 3em;
   text-align: left;
   top:2em;
@@ -110,17 +110,19 @@ li .link:hover{
   left:15em;
 }
 .about-content h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Permanent Marker', cursive;
   font-size: 5em;
   text-align: left;
 }
 .about-content p{
   font-size: 1.3em;
-  text-align: left;
+  text-align: right;
   width: 37em;
 }
 .about img{
-  margin-left: 5em;
+  margin-right: 5em;
+  border-radius: 50%;
+  image-rendering:auto;
 }
 .work{
   position: relative;
@@ -131,7 +133,7 @@ li .link:hover{
   align-items: flex-start;
 }
 .work .heading{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Permanent Marker', cursive;
   font-size: 5em;
   text-align: left;
 }
@@ -152,7 +154,7 @@ height: 30em;
   text-align: left;
 }
 .contact h1{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Permanent Marker', cursive;
   font-size: 5em;
   text-align: left;
 }

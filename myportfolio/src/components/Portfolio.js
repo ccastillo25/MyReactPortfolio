@@ -6,7 +6,9 @@ class Portfolio extends Component {
     state = {  }
     render() { 
         return (<div>
-        <h1 className='heading'>Portfolio.</h1>
+        <h1 className='heading'>
+            Portfolio
+            </h1>
         <div className='portoflio-content'>
                 {data.projects.map((project)=>(
                     <Project key={project.id}
