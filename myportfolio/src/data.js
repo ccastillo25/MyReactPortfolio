@@ -14,17 +14,17 @@ export default
         projects: [
             {
                 id: 1,
-                title: 'Design A Date',
-                service: 'A program to make dating easier',
-                imageSrc: "./design.png",
-                url: 'https://christopherneill.github.io/GroupProject/'
+                title: 'STOR-IT Warehouse Management',
+                service: 'A web app for warehouse management allowing for easier access and tracking of inventory.',
+                imageSrc: "./Project2.gif",
+                url: 'https://stor-it-warehouse-management.herokuapp.com/add/'
             },
             {
                 id: 2,
-                title: 'Find a Lost pet',
-                service: 'microchip matcher',
-                imageSrc: "./catsndogs.png",
-                url: 'https://polar-stream-66961.herokuapp.com/'
+                title: 'Fitness Tracker',
+                service: 'Lets you keep track of your workout.',
+                imageSrc: "./Fitness Tracker (1).gif",
+                url: 'https://vast-lake-77470.herokuapp.com/'
             },
 
             {
@@ -36,10 +36,10 @@ export default
             },
             {
                 id: 4,
-                title: 'Command line inteface',
-                service: 'Node Program Development',
-                imageSrc: "./rmgen.png",
-                url: 'https://github.com/ChristopherNeill/clirmgen'
+                title: 'Budget Tracker',
+                service: 'A app that allows you to keep track of your finances',
+                imageSrc: "./Budget Tracker.gif",
+                url: 'https://arcane-island-40123.herokuapp.com/'
             },
             {
                 id: 5,
