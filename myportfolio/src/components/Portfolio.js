@@ -3,13 +3,13 @@ import Project from './project';
 import Fade from 'react-reveal/Fade';
 import data from '../data';
 
-class Work extends Component {
+class Portfolio extends Component {
     state = {  }
     render() { 
         return (<div>
         <h1 className='heading'>
-        <Fade bottom cascade>Work.</Fade></h1>
-        <div className='work-content'>
+        <Fade bottom cascade>Portfolio.</Fade></h1>
+        <div className='portoflio-content'>
                 {data.projects.map((project)=>(
                     <Project key={project.id}
                              title = {project.title}
@@ -23,4 +23,4 @@ class Work extends Component {
     }
 }
  
-export default Work;
+export default Portfolio;

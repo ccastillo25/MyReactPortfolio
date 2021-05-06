@@ -11,7 +11,7 @@ class Navbar extends Component {
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to="homw"
+                    to="home"
                     spy={true}
                     smooth={true}
                     offset={-70}
@@ -30,12 +30,12 @@ class Navbar extends Component {
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to="work"
+                    to="portfolio"
                     spy={true}
                     smooth={true}
                     offset={-70}
                     duration={500}
-                >Work</Link></li>
+                >Portfolio</Link></li>
                 <li><Link
                     className='link'
                     activeClass="active"
@@ -45,6 +45,15 @@ class Navbar extends Component {
                     offset={-70}
                     duration={500}
                 >Contact</Link></li>
+                <li><Link
+                    className='link'
+                    activeClass="active"
+                    to="https://docs.google.com/document/d/1jtBDalymGFOpmtIFjUiQm3h_oMbY-F4PIOSgTR2LOng/edit?usp=sharing"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                >Resume</Link></li>
             </ul>
         </nav> );
     }
