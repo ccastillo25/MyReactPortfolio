@@ -3,8 +3,9 @@ export default
 
         name: 'CARLOS CASTILLO',
         headerTagline: [
-            'DONT FOLLOW THE PACK..',
-            'LEAD IT!!!',
+            'We are what we repeatedly do.',
+            'Excellence, then, is not an act, but a habit.',
+            '-Aristotle',
         ],
 
         abouttext: "My name is Carlos Castillo. I'm 28 years old, I was born in Los Angeles, California. I love to work out and watch sports,baseball being my favorite sport of all with the Dodgers being my favorite team I am currently a student at UCSD extension for coding, on my journey to begin a career as a web developer. I have always been driven by my competitive spirit, and always wanting to be the best, and I will strive everyday to become the very best web developer I know I can be.",
@@ -30,9 +31,9 @@ export default
             {
                 id: 3,
                 title: 'Password Generator',
-                service: 'First use of javascript',
-                imageSrc: "./pass.png",
-                url: 'https://christopherneill.github.io/javascript/'
+                service: 'First time I used javascript',
+                imageSrc: "./passwordgenerator.gif",
+                url: 'https://ccastillo25.github.io/PasswordGenerator/'
             },
             {
                 id: 4,
@@ -43,17 +44,17 @@ export default
             },
             {
                 id: 5,
-                title: 'Eat da burger',
-                service: 'MySQL, Node, Express, Handlebars and a ORM',
-                imageSrc: "./burger.png",
-                url: 'https://burgermonster123.herokuapp.com/'
+                title: 'Play Ball',
+                service: 'Making a quiz using javascript',
+                imageSrc: "./Quiz.gif",
+                url: 'https://ccastillo25.github.io/MyFirstQuiz/'
             },
             {
                 id: 6,
-                title: 'Weather App',
-                service: 'Api implementation',
+                title: 'Weather Forcaster',
+                service: 'Weather app using an API',
                 imageSrc: "./weather.png",
-                url: 'https://christopherneill.github.io/weatherapp2/'
+                url: 'https://ccastillo25.github.io/WeatherForcast/'
             }
 
 

@@ -28,6 +28,7 @@ class Navbar extends Component {
                     className='link'
                     activeClass="active"
                     to="contact"
+                    onClick={this.scrollToBottom}
                 >Contact</Link></li>
                 <li><a href="https://docs.google.com/document/d/1jtBDalymGFOpmtIFjUiQm3h_oMbY-F4PIOSgTR2LOng/edit?usp=sharing" alt="resume"
                 >Resume</a></li>
