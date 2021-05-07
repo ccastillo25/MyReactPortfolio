@@ -53,7 +53,7 @@ export default
                 id: 6,
                 title: 'Weather Forcaster',
                 service: 'Weather app using an API',
-                imageSrc: "./weather.png",
+                imageSrc: "./Weather Dashboard.gif",
                 url: 'https://ccastillo25.github.io/WeatherForcast/'
             }
 
